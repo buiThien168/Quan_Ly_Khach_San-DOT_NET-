@@ -64,7 +64,9 @@
             this.paintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thoátToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
+            this.giảiTríToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.browerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -111,7 +113,8 @@
             this.báoCaoToolStripMenuItem,
             this.tiệnÍchToolStripMenuItem,
             this.thôngTinToolStripMenuItem,
-            this.thoátToolStripMenuItem1});
+            this.thoátToolStripMenuItem1,
+            this.giảiTríToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
@@ -130,6 +133,7 @@
             this.tàiKhoảnToolStripMenuItem.Name = "tàiKhoảnToolStripMenuItem";
             this.tàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(124, 29);
             this.tàiKhoảnToolStripMenuItem.Text = "Tài khoản";
+            this.tàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.tàiKhoảnToolStripMenuItem_Click);
             // 
             // menu_quanlytk
             // 
@@ -394,16 +398,30 @@
             this.thoátToolStripMenuItem1.Text = "Thoát";
             this.thoátToolStripMenuItem1.Click += new System.EventHandler(this.thoátToolStripMenuItem1_Click);
             // 
-            // label1
+            // giảiTríToolStripMenuItem
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Book Antiqua", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(535, 522);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(754, 72);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Lotte69 Hotel Thái Nguyên";
+            this.giảiTríToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.listenToolStripMenuItem,
+            this.browerToolStripMenuItem});
+            this.giảiTríToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("giảiTríToolStripMenuItem.Image")));
+            this.giảiTríToolStripMenuItem.Name = "giảiTríToolStripMenuItem";
+            this.giảiTríToolStripMenuItem.Size = new System.Drawing.Size(100, 29);
+            this.giảiTríToolStripMenuItem.Text = "Giải trí";
+            this.giảiTríToolStripMenuItem.Click += new System.EventHandler(this.giảiTríToolStripMenuItem_Click);
+            // 
+            // listenToolStripMenuItem
+            // 
+            this.listenToolStripMenuItem.Name = "listenToolStripMenuItem";
+            this.listenToolStripMenuItem.Size = new System.Drawing.Size(216, 30);
+            this.listenToolStripMenuItem.Text = "Listen";
+            this.listenToolStripMenuItem.Click += new System.EventHandler(this.listenToolStripMenuItem_Click);
+            // 
+            // browerToolStripMenuItem
+            // 
+            this.browerToolStripMenuItem.Name = "browerToolStripMenuItem";
+            this.browerToolStripMenuItem.Size = new System.Drawing.Size(216, 30);
+            this.browerToolStripMenuItem.Text = "Brower";
+            this.browerToolStripMenuItem.Click += new System.EventHandler(this.browerToolStripMenuItem_Click);
             // 
             // Home
             // 
@@ -412,7 +430,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1611, 873);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lb_quyen);
             this.Controls.Add(this.lb_name);
@@ -469,6 +486,8 @@
         private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wordToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem paintToolStripMenuItem;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem giảiTríToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem browerToolStripMenuItem;
     }
 }

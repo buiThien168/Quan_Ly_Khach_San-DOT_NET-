@@ -56,6 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="browse.Designer.cs">
+      <DependentUpon>browse.cs</DependentUpon>
+    </Compile>
     <Compile Include="chuoiketnoi.cs" />
     <Compile Include="DangNhap.cs" />
     <Compile Include="dangnhap\Login.cs">
@@ -91,6 +97,12 @@
     </Compile>
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="information.Designer.cs">
+      <DependentUpon>information.cs</DependentUpon>
     </Compile>
     <Compile Include="Khachhang.cs" />
     <Compile Include="Khohang.cs" />
@@ -203,6 +215,9 @@
     <Compile Include="timkiem\Search_phong.Designer.cs">
       <DependentUpon>Search_phong.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="browse.resx">
+      <DependentUpon>browse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dangnhap\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -217,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="information.resx">
+      <DependentUpon>information.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main_chinh.resx">
       <DependentUpon>Main_chinh.cs</DependentUpon>
@@ -291,7 +309,25 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Custom-Icon-Design-Pretty-Office-6-Custom-reports.ico" />
   </ItemGroup>

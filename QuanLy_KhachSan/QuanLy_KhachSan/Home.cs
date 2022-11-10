@@ -210,5 +210,27 @@ namespace QuanLy_KhachSan
         {
             Process.Start("mspaint");
         }
+
+        private void tàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void giảiTríToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void listenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            information a = new information();
+            a.Show();
+        }
+
+        private void browerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            browse b = new browse();
+            b.Show();
+        }
     }
 }

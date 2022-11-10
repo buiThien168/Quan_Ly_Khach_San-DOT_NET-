@@ -63,3 +63,10 @@ F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\Quan
 F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\bin\Debug\EntityFramework.xml
 F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\bin\Debug\EntityFramework.SqlServer.xml
 F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\obj\x86\Debug\QuanLy_KhachSan.csproj.CopyComplete
+F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\bin\Debug\Interop.WMPLib.dll
+F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\bin\Debug\AxInterop.WMPLib.dll
+F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\obj\x86\Debug\Interop.WMPLib.dll
+F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\obj\x86\Debug\AxInterop.WMPLib.dll
+F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\obj\x86\Debug\QuanLy_KhachSan.csproj.ResolveComReference.cache
+F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\obj\x86\Debug\QuanLy_KhachSan.information.resources
+F:\Nam_4_ky_1\Cong_nghe_dot_net\Hotel_manager\Hotel_manager\QuanLy_KhachSan\QuanLy_KhachSan\obj\x86\Debug\QuanLy_KhachSan.browse.resources
